@@ -1,0 +1,234 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0px;
+}
+/* navigation style */
+#navbar{
+    /* background-color: black; */
+    display: flex;
+    position:relative;
+    top:0px;
+    left:0px;
+    align-items: center;
+}
+#navbar::before{
+    content:"";
+    position: absolute;
+    background-color:black;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#logo img{
+    height:80px;
+    width:80px;
+    border-radius: 50px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin:0px 15px;
+    padding:3px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+#home{
+    color:white;
+    font-family: cursive;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:303px;
+}
+#home h1{
+    font-size: 2rem;
+}
+#home p{
+    text-align: center;
+    margin:5px ;
+}
+#home::before{
+    position:absolute;
+    top:0px;
+    left:0px;
+    content: "";
+    height:68%;
+    width:100%;
+    background: url('../img/Topbakground.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    
+}
+.btn{
+    margin:10px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0s;
+    transition-duration: 0.1s;
+        
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.3);
+    
+}
+#services{
+    font-family: cursive;
+    margin:7px;
+    display: flex;
+}
+#service-container{
+    position: relative;
+    height:100%;
+}
+#services img{
+    height:120px;
+    display:block;
+    margin:auto;
+    width:120px;
+}
+#services .box{
+border:2px solid maroon;
+margin:6px;
+padding:6px;
+border-radius: 25px;
+background-color: grey;
+
+}
+.box p{
+    text-align: center;
+}
+.box h2{
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+.services-container{
+    position:relative;
+}
+.services-container::before{
+    height:120%;
+    width:100%;
+    content : "";
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index: -1;
+    opacity:1;
+    background-color: rgb(216, 182, 255);
+}
+.services-container h1{
+    text-align: center;
+    font-family: cursive;
+    margin:0px;
+}
+#client-section::before{
+    position: absolute;
+    content: "";
+    top:0px;
+    left:0px;
+    height:250px;
+    width:100%;
+    background: url('../img/ourclientd.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;
+}
+#client-section h1{
+   text-align: center;
+   font-family: cursive;
+   margin:0px;
+}
+#client-section {
+   position: relative;
+   top:0px;
+   left:0px;    
+   height: 216px;
+   font-family: cursive;
+  
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients img{
+    height:100px;
+    width:100px;
+    margin:10px;
+    padding:10px;
+}
+.contact-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    position: relative;
+}
+.contact::before{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity: 0.7;
+    z-index: -1;
+    background: url('../img/contact.jpeg') no-repeat center center/cover;
+}
+.contact h1 {
+    text-align: center;
+    font-family: cursive;
+    color:white;
+}
+
+.form-action input,
+.form-action textarea{
+border:5px solid black;
+width:100%;
+padding:10px 2px;
+margin:10px 2px;
+font-size: 1.3rem;
+font-family: cursive;
+text-align: center;
+border-radius: 30px;
+transition-property: all;
+transition-delay: 0s;
+transition-duration: 0.3s;
+
+
+}
+.form-action input:hover,
+.form-action textarea:hover{
+    transform: scale(1.1);
+}
+.form-action{
+    font-family: cursive;
+}
+.copy{
+    padding:3px;
+    margin:3px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.h1-primary{
+    font-size: 2.5rem;
+}
+
+

@@ -1,0 +1,59 @@
+#navbar{
+    flex-direction: column; 
+}
+#navbar ul li a{
+    font-size: 15px;
+    margin:3px;
+}
+#home{
+    height:370;
+}
+#home h1{
+    font-size: 26px;
+    text-align: center;
+}
+#home p{
+    font-size: 13px;;
+}
+#home::before{
+    position:absolute;
+    top:0px;
+    left:0px;
+    content: "";
+    height:80%;
+    width:100%;
+    background: url('../img/Topbakground.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    right:0px;
+}
+#services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clients{
+    display: flex;
+    flex-wrap: wrap;
+}
+#client-section{
+    
+    height:400px;
+}
+#client-section::before{
+    position: absolute;
+    content: "";
+    top:0px;
+    left:0px;
+    height:435px;
+    width:100%;
+    background: url('../img/ourclientd.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;
+}
+.client-item{
+    height:100px;
+    width:100px;
+    margin:10px;
+}
+.contact-box{
+    width:300px;
+}

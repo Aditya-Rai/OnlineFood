@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Ordering</title>
+    <link rel="stylesheet" href="Css/styleagain.css">
+    <link rel="stylesheet" media = "screen and (max-width:838px)"href="Css/phoneagian.css">
+</head>
+
+<body>
+    <nav id="navigation">
+        <img src="../img/bulk.webp" alt="mealsOnwheels">
+        <header class="head">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service-container">Service</a></li>
+                    <li><a href="#client-container">About</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </header>
+    </nav>
+    <section id="home">
+        <h1 class="center">Welcome to Our travelling Meal</h1>
+        <div class="main">
+            <p id = "scp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam provident est, adipisci modi dolores
+                beatae earum excepturi minima ipsa, delectus, consequatur quae odit odio dicta accusamus? Necessitatibus
+                culpa, beatae sequi hic porro debitis est.
+            </p>
+            <button class="btn" id = "order" onclick="toggleHide()">Order Now</button>
+        </div>
+    </section>
+    <section id="service-container">
+        <h1 class="center">Our services</h1>
+        <div class="main-service">
+            <div class="service">
+                <h2>Food Delivery</h2>
+                <img src="../img/delivery.png" alt="">
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, praesentium? Labore
+                    maxime corporis fugiat mollitia, numquam nulla cum error est eius harum quam repellendus minus enim,
+                    vero accusamus, architecto quibusdam odit deleniti doloribus alorem. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Rem eligendi ut hic veritatis id quisquam obcaecati sed dolore
+                    blanditiis, magnam saepe error ipsum aliquam, et vel dignissimos omnis maiores? Quasi!
+                </p>
+            </div>
+            <div class="service">
+                <h2>Bulk Odering</h2>
+                <img src="../img/bulk1.webp" alt="">
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, praesentium? Labore
+                    maxime corporis fugiat mollitia, numquam nulla cum error est eius harum quam repellendus minus enim,
+                    vero accusamus, architecto quibusdam odit deleniti doloribus alorem. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Rem eligendi ut hic veritatis id quisquam obcaecati sed dolore
+                    blanditiis, magnam saepe error ipsum aliquam, et vel dignissimos omnis maiores? Quasi
+                    !</p>
+            </div>
+            <div class="service">
+                <h2>Food Delivery</h2>
+                <img src="../img/ordering.jpeg" alt="">
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, praesentium? Labore
+                    maxime corporis fugiat mollitia, numquam nulla cum error est eius harum quam repellendus minus enim,
+                    vero accusamus, architecto quibusdam odit deleniti doloribus alorem. Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Rem eligendi ut hic veritatis id quisquam obcaecati sed dolore
+                    blanditiis, magnam saepe error ipsum aliquam, et vel dignissimos omnis maiores? Quasi!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="client-container">
+        <h1 class="center">Our Client</h1>
+        <div class="client">
+            <img src="../img/con1.jpeg" alt="">
+            <img src="../img/con2.jpeg" alt="">
+            <img src="../img/con3.jpeg" alt="">
+            <img src="../img/con4.jpeg" alt="">
+            <img src="../img/con5.jpeg" alt="">
+        </div>
+    </section>
+    <section id="contact-container">
+        <h1 class="center">Contact Us</h1>
+        <div class="contact">
+            <form action="" class="form-group">
+                <div class="form">
+                    <label for="name">Name:</label><br>
+                    <input type="text" class="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form">
+                    <label for="password">Password:</label><br>
+                    <input type="password" class="name" id="password" placeholder="Enter your password">
+                </div>
+                <div class="form">
+                    <label for="email">Email:</label><br>
+                    <input type="email" class="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form">
+                    <label for="message">Enter your suggestion:</label><br>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            Copyright &copy All right reserved!
+        </div>
+    </footer>
+    <script>
+        let scp = document.getElementById('scp')
+        let ord = document.getElementById('order');
+        ord.addEventListener('click', function run3(){
+        })
+        function toggleHide(){
+            if(scp.style.display!='none'){
+                scp.style.display = 'none';
+            }
+            else{
+                scp.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>
