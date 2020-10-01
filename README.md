@@ -1,3 +1,3 @@
 # Online Food
 
-# Eat Well and Stay Healthy.
+Eat Well and Stay Healthy.
